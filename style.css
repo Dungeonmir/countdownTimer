@@ -91,24 +91,18 @@ header > h1 {
 	letter-spacing: 3px;
 	transition: 0.4s;
 	user-select: none;
+	margin-bottom: 10px;
 }
 
 .Btn:hover {
 	letter-spacing: 10px;
 	color: white;
 	background-color: black;
+	margin-bottom: 15px;
 }
 
-body > div:nth-child(3) {
-	position: relative;
-}
 
-.container > div:nth-child(3) {
-	position: absolute;
-	top: 90%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+
 
 @media screen and (max-width:570px) {
 	header {
